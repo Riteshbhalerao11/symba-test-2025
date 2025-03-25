@@ -7,6 +7,7 @@ This repository contains the source code for **SYMBA Test 2025**, developed as p
 
 ```
 .
+├── Data/
 ├── SineKAN/
 │   ├── runs/
 │   ├── config.py
@@ -39,6 +40,9 @@ This repository contains the source code for **SYMBA Test 2025**, developed as p
 
 ---
 ## 📌 Overview of Directories and Files
+
+### **Data**
+- **`Data/`** – Contains the train,test and valid splits after processing of raw data.
 
 ### **Modeling**
 - **`SineKAN/`** – Implementation of the S-KANformer model, integrating SineKAN layers for enhanced symbolic representation.
