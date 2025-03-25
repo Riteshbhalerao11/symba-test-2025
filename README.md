@@ -59,14 +59,14 @@ This repository contains the source code for **SYMBA Test 2025**, developed as p
 - **`data.py`** – Handles dataset loading and processing for amplitude and squared amplitude expressions.
 
 ### **Utilities & Supporting Modules (Present in Both Models)**
-- **`fn_utils.py`** – Houses helper functions to streamline model operations.
+- **`fn_utils.py`** – Helper functions.
 - **`tokenizer.py`** – Implements a custom tokenizer specialized for parsing amplitude expressions efficiently.
 
 ### **Model Implementation (Present in Both Models)**
 - **`model.py`** – Defines the architectures for both the **S-KANformer** and **Vanilla Transformer** models.
 
 ### **Training & Inference (Present in Both Models)**
-- **`trainer.py`** – Contains training and inference scripts tailored for efficient model deployment.
+- **`trainer.py`** – Contains training and inference scripts.
 
 ---
 ## Training the Models
