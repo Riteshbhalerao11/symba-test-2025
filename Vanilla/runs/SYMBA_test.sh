@@ -5,10 +5,10 @@ nvidia-smi
 
 torchrun --standalone --nproc_per_node 2 main.py \
     --project_name "SYMBA_test" \
-    --run_name "64x2_Vanilla_50eps_$SLURM_JOB_ID" \
-    --model_name "transformer_64x2" \
-    --root_dir "$SCRATCH/SYMBA_test/Vanilla_50ep" \
-    --data_dir "$SCRATCH/SYMBA_test/SYMBA_test" \
+    --run_name "dummy_run" \
+    --model_name "transformer" \
+    --root_dir "dummy_root" \
+    --data_dir "dummy_data" \
     --device "cuda" \
     --epochs 50 \
     --training_batch_size 64 \

@@ -4,10 +4,10 @@ nvidia-smi
 
 torchrun --standalone --nproc_per_node 2 main.py \
     --project_name "SYMBA_test" \
-    --run_name "64x2_Skanformer_50eps_$SLURM_JOB_ID" \
-    --model_name "skanformer_64x2" \
-    --root_dir "$SCRATCH/SYMBA_test/Skanformer_50eps" \
-    --data_dir "$SCRATCH/SYMBA_test/SYMBA_test" \
+    --run_name "dummy_run" \
+    --model_name "skanformer" \
+    --root_dir "dummy_root" \
+    --data_dir "dummy_data" \
     --device "cuda" \
     --epochs 50 \
     --training_batch_size 64 \
