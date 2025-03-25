@@ -93,6 +93,64 @@ Complete training details for Transformer and S-KANformer can be found [here](ht
 <img src="https://github.com/user-attachments/assets/a88b3e82-8474-4506-85de-4235735f3035" height="400" width="650" /></td>
 <img src="https://github.com/user-attachments/assets/99df9ded-689f-4537-bd4f-acc62071d379" height="400" width="650" /></td>
 
+### Results for Vanilla Transformer
+<table>
+  <tr>
+<!--     <th rowspan="2">Data size</th> -->
+    <th colspan="3">Data size</th>
+    <th rowspan="2">seq_acc (%)</th>
+    <th rowspan="2">num_layers</th>
+    <th rowspan="2">hidden_dims</th>
+    <th rowspan="2">emb_size</th>
+    <th rowspan="2">nhead</th>
+  </tr>
+  <tr>
+    <th>Train</th>
+    <th>Test</th>
+    <th>Valid</th>
+  </tr>
+  <tr>
+    <td>12441</td>
+    <td>1555</td>
+    <td>1556</td>
+    <td>92.30</td>
+    <td>3</td>
+    <td>4096</td>
+    <td>512</td>
+    <td>8</td>
+  </tr>
+</table>
+
+### Results for S-KANformer 
+<table>
+  <tr>
+<!--     <th rowspan="2">Data size</th> -->
+    <th colspan="3">Data size</th>
+    <th rowspan="2">seq_acc (%)</th>
+    <th rowspan="2">num_layers</th>
+    <th rowspan="2">hidden_dims</th>
+    <th rowspan="2">emb_size</th>
+    <th rowspan="2">nhead</th>
+    <th rowspan="2">KAN_layer_dims</th>
+  </tr>
+  <tr>
+    <th>Train</th>
+    <th>Test</th>
+    <th>Valid</th>
+  </tr>
+  <tr>
+    <td>12441</td>
+    <td>1555</td>
+    <td>1556</td>
+    <td>92.90</td>
+    <td>3</td>
+    <td>4096</td>
+    <td>512</td>
+    <td>8</td>
+    <td>4096</td>
+  </tr>
+</table>
+
 
 
 
