@@ -76,11 +76,19 @@ To get started with training, refer to the `runs/` directory inside `SineKAN/` a
 ---
 
 ## Evaluation task details
-Model checkpoints are available [here](https://www.kaggle.com/datasets/riteshbhalerao/symba-test-2025-ckps).  
 
 - **Common Task 1.2**: Solution in `preprocess.ipynb`  
 - **Common Task 2**: Solution in `Vanilla/seq_acc.ipynb`  
-- **Common Task 3.2**: Solution in `Vanilla/seq_acc.ipynb`
+- **Common Task 3.2**: Solution in `SineKAN/seq_acc.ipynb`
+
+Model checkpoints are available [here](https://www.kaggle.com/datasets/riteshbhalerao/symba-test-2025-ckps).  
+Complete training details for Transformer and S-KANformer can be found [here](https://wandb.ai/ves_ritesh/SYMBA_test/reports/Training-report-for-Evaluation-tasks-SYMBA---VmlldzoxMTk3MjQ4MQ?accessToken=5j9s21xofj3vb2f74ocggg30eotvyqunhedcx9orqcbz2u0krqfzimyj3v6h7riq).
+
+
+### Sequence lengths distribution after tokenization
+<img src="https://github.com/user-attachments/assets/a88b3e82-8474-4506-85de-4235735f3035" height="400" width="650" /></td>
+<img src="https://github.com/user-attachments/assets/99df9ded-689f-4537-bd4f-acc62071d379" height="400" width="650" /></td>
+
 
 
 
